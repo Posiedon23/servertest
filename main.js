@@ -15,7 +15,7 @@ http.createServer(function (req, res) {
 	res.writeHead(200, { 'Content-Type': 'text/html' });
 
 	// Write a response to the client
-	res.write('Congrats you have a created a web server');
+	res.write('HI jay');
 
 	// End the response
 	res.end();
